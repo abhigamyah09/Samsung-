@@ -16,7 +16,7 @@ jobs:
         with:
           gradle-version: '8.4'
       - name: Unzip
-        run: unzip GameAssist_GLM_V2.zip
+        run: unzip GameAssist_GLM_Final.zip
       - name: Build APK
         run: |
           cd GameAssist
